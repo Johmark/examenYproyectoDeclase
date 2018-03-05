@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ExamenTucker</string>
+    <string name="action_settings">Settings</string>
+    <string name="Nombre">Nombre del Empleado</string>
+    <string name="nombrehint">Escriba su nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="apellidohint">Escriba su apellido</string>
+    <string name="telefono">Numero de Telefono</string>
+    <string name="telefonohint">Ingrese su Telefono</string>
+    <string name="id">Cedula</string>
+    <string name="idhint">Ingrese su Numero de Identificacion</string>
+    <string name="empleadohint">Ingrese su Codigo</string>
+    <string name="Empleadoid">Codigo de Empleado</string>
+    <string name="guardar">Guardar</string>
+    <string name="departamento">Departamento</string>
+    <string name="departamentohint">Ingrese su Departamento</string>
+    <string name="error_valid">Faltan campos por llenar</string>
+    <string name="ok_valid">Datos agregados satisfactiriamente</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="titulo1">ATENCION al usuario de esta Aplicación se le recuerda que TODOS los campos en este formulario son de carácter obligatorio.</string>
+    <string name="action_edit">Edit Item</string>
+    <string name="message">No es posible editar en esta versión por favor borre el registro que desea editar e insértelo de nuevo. Lamentamos los inconvenientes estará solucionado en la siguiente versión.</string>
+</resources>

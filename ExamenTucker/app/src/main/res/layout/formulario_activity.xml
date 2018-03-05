@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDark"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+        <TextView
+            android:id="@+id/lblcondicion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:textColor="@color/colorLight"
+            android:text="@string/titulo1"
+            />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/lblNombre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:gravity="right"
+                            android:text="@string/Nombre"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/colorLight" />
+
+                        <EditText
+                            android:id="@+id/txtnombre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/fab_margin"
+                            android:backgroundTint="@color/colorLight"
+                            android:gravity="left"
+                            android:hint="@string/nombrehint"
+                            android:textColor="@color/colorLight"
+                            android:textColorHint="@color/colorLightGray" />
+
+                        <TextView
+                            android:id="@+id/lblApellido"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:gravity="right"
+                            android:text="@string/apellido"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/colorLight" />
+
+                        <EditText
+                            android:id="@+id/txtApellido"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/fab_margin"
+                            android:backgroundTint="@color/colorLight"
+                            android:gravity="left"
+                            android:hint="@string/apellidohint"
+                            android:textColor="@color/colorLight"
+                            android:textColorHint="@color/colorLightGray" />
+
+                        <TextView
+                            android:id="@+id/lblNumeroId"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:gravity="right"
+                            android:text="@string/id"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/colorLight" />
+
+                        <EditText
+                            android:id="@+id/txtNumeroID"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/fab_margin"
+                            android:backgroundTint="@color/colorLight"
+                            android:gravity="left"
+                            android:hint="@string/idhint"
+                            android:textColor="@color/colorLight"
+                            android:textColorHint="@color/colorLightGray" />
+
+                        <TextView
+                            android:id="@+id/lblEmpleadoId"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:gravity="right"
+                            android:text="@string/Empleadoid"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/colorLight" />
+
+                        <EditText
+                            android:id="@+id/txtEmpleadoID"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/fab_margin"
+                            android:backgroundTint="@color/colorLight"
+                            android:gravity="left"
+                            android:hint="@string/empleadohint"
+                            android:textColor="@color/colorLight"
+                            android:textColorHint="@color/colorLightGray" />
+
+                        <TextView
+                            android:id="@+id/lblDepartamento"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:gravity="right"
+                            android:text="@string/departamento"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/colorLight" />
+
+                        <EditText
+                            android:id="@+id/txtDepartamento"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/fab_margin"
+                            android:backgroundTint="@color/colorLight"
+                            android:gravity="left"
+                            android:hint="@string/departamentohint"
+                            android:textColor="@color/colorLight"
+                            android:textColorHint="@color/colorLightGray" />
+
+                        <TextView
+                            android:id="@+id/lblTelefono"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:gravity="right"
+                            android:text="@string/telefono"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/colorLight" />
+
+                        <EditText
+                            android:id="@+id/txtTelefono"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/fab_margin"
+                            android:backgroundTint="@color/colorLight"
+                            android:gravity="left"
+                            android:hint="@string/telefonohint"
+                            android:textColor="@color/colorLight"
+                            android:textColorHint="@color/colorLightGray" />
+
+                        <Button
+                            android:id="@+id/btnGuardar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/guardar" />
+                </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>
